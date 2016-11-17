@@ -1,0 +1,38 @@
+{
+    "name": "luonglee/flarum-vietnamese",
+    "type": "flarum-extension",
+    "description": "Vietnam language pack for Flarum.",
+    "keywords": ["locale"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "luonglee",
+            "email": "ducluong1905@gmail.com"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/FlarumES/Spanish/issues",
+        "source": "https://github.com/FlarumES/Spanish/flags"
+    },
+    "require": {
+        "flarum/core": "^0.1.0-beta.5"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1.x-dev"
+        },
+        "flarum-extension": {
+            "title": "Tiếng việt",
+            "icon": {
+                "image": "icon.svg",
+                "backgroundColor": "#AD1519",
+                "backgroundSize": "cover",
+                "backgroundPosition": "center"
+            }
+        },
+        "flarum-locale": {
+            "code": "vi",
+            "title": "Tiếng việt"
+        }
+    }
+}
